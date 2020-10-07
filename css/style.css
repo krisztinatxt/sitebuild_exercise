@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 /*Hero image */
 .hero-body{
     background-image: url('https://raw.githubusercontent.com/krisztinatxt/sitebuild_loginet/main/media/MAINPAGE_8eMt9a.jpg');
@@ -5,7 +9,7 @@
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	
 }
@@ -14,10 +18,14 @@
 top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
+ position: absolute;
 }
 
+/* Cards */
 
-
+.card {
+  height: 100%;
+}
 
 /*Reusable color classes */
 
