@@ -1,14 +1,19 @@
 /*Hero image */
-.bg-image{
-    background-image: url('media/MAINPAGE_8eMt9a.jpg');
+.hero-body{
+    background-image: url('https://raw.githubusercontent.com/krisztinatxt/sitebuild_loginet/main/media/MAINPAGE_8eMt9a.jpg');
 	height: 70%;
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
 	width: 100%;
-	left: 0px;
-	top: 0px;
+	
+}
+
+.hero-container{
+top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
 
 
@@ -19,6 +24,7 @@
 .orange{
     background: #e5692c;
     color:white;
+    border: transparent;
 }
 
 .grey-bg{
