@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+# Loginet
 
-You can use the [editor on GitHub](https://github.com/krisztinatxt/sitebuild_loginet/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Technologies Used:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- HTML
 
-### Markdown
+- CSS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- JavaScript
 
-```markdown
-Syntax highlighted code block
+- Bulma
 
-# Header 1
-## Header 2
-### Header 3
+- Autoprefixer
 
-- Bulleted
-- List
+- FontAwesome
 
-1. Numbered
-2. List
+- HTML Validator
 
-**Bold** and _Italic_ and `Code` text
+- Responsive Viewer
 
-[Link](url) and ![Image](src)
-```
+- AmIresponsive
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![amIresponsive](link)
 
-### Jekyll Themes
+## Test
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/krisztinatxt/sitebuild_loginet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+All codes are validated and beatufied.
 
-### Support or Contact
+1. HTML Validator
+No error found.
+2. CSS
+- Valid, no error found.
+- Autoprefixer used.
+3. JavaScript
+- No syntax errors!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The site compatibility was checked using devtools, Responsive Viever, and the AmIresponsive site.
+
+The site is responsive when you are browsing with:
+ - [x] Google Chrome.
+ - [x] Mozilla Firefox. 
+
+
+Tested devices:
+
+ - laptop, laptop with touch (width 1440px);
+
+ - Moto G4;
+
+ - Galaxy S5;
+
+ - Pixel2, Pixel 2XL;
+
+ - Iphone 5/SE, Iphone 6/7/8;
+
+ - Iphone 6/7/8 Plus, IphoneX;
+
+ - iPhone XR, XS Max;
+
+ - Ipad and Ipad Pro;
+
+ - Xiaomi Redmi 4A;
+
+ - Galaxy S9 Plus, S8 Plus.

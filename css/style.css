@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body, html {
     height: 100%;
 }
@@ -16,7 +23,9 @@ body, html {
 .hero-container{
 top: 50%;
  left: 50%;
- transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
  position: absolute;
 }
 
@@ -33,18 +42,15 @@ top: 50%;
     right:1rem;
 }
 
-
-
-
-
-
 /*Modal*/
 
 .modal-content{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 /*Reusable color classes */
@@ -54,7 +60,6 @@ top: 50%;
     color:white;
     border: transparent;
 }
-
 .grey-bg{
     background: #F5F5F5;
 }
