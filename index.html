@@ -74,7 +74,7 @@
             <h2 class="subtitle has-text-white">
                Tudd meg Ecommerce sikerkönyvünkből!
             </h2>
-            <a class="button orange">
+            <a class="button orange" id="ebook">
             Letöltöm az ebookot!
             </a>
          </div>
@@ -224,86 +224,95 @@
       </section>
       <!--Contact form-->
       <section class="grey-bg mt-6">
-      <div class="container">
+         <div class="container">
             <div class="columns pt-5 pl-5">
-                <div class="column">
-                    <h2 class="level-left title">Lépjen velünk kapcsolatba! </h2>
-                    <p class="subtitle">Felkeltettük érdeklődését? Küldje el ajánlatkérését, vegye fel velünk a kapcsolatot! Az üzenet elküldése után 72 órával jelentkezni fogunk. </p>
-                </div>
+               <div class="column">
+                  <h2 class="level-left title">Lépjen velünk kapcsolatba! </h2>
+                  <p class="subtitle">Felkeltettük érdeklődését? Küldje el ajánlatkérését, vegye fel velünk a kapcsolatot! Az üzenet elküldése után 72 órával jelentkezni fogunk. </p>
+               </div>
             </div>
-        <div class="field columns">
-            <div class="column is-6 is-offset-one-fifth">
-            <label class="label">Név</label>
-            <div class="control has-icons-left has-icons-right">
-                <input class="input is-danger" required type="email" placeholder="Név">
-                    <p class="help is-danger">
+            <div class="field columns">
+               <div class="column is-6 is-offset-one-fifth">
+                  <label class="label">Név</label>
+                  <div class="control has-icons-left has-icons-right">
+                     <input class="input is-danger" required type="email" placeholder="Név">
+                     <p class="help is-danger">
                         Kérlek add meg a teljes nevedet!
-                    </p>
-                <span class="icon is-small is-left">
-                <i class="fas fa-user"></i>
-                </span>
-            </div>  
+                     </p>
+                     <span class="icon is-small is-left">
+                     <i class="fas fa-user"></i>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="field columns">
+               <div class="column is-6 is-offset-one-fifth">
+                  <label class="label">Email cím</label>
+                  <div class="control has-icons-left has-icons-right">
+                     <input class="input" type="email" placeholder="Email cím">
+                     <span class="icon is-small is-left">
+                     <i class="fas fa-envelope"></i>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="field columns">
+               <div class="column is-6 is-offset-one-fifth">
+                  <label class="label">Tárgy</label>
+                  <div class="control">
+                     <div class="select">
+                        <select>
+                           <option>Válassz egy lehetőséget</option>
+                           <option>Egy lehetőség</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="field columns">
+               <div class="column is-6 is-offset-one-fifth">
+                  <label class="label">Üzenet</label>
+                  <div class="control">
+                     <textarea class="textarea" placeholder="Ide írhatod az üzenetedet"></textarea>
+                  </div>
+               </div>
+            </div>
+            <div class="field columns">
+               <div class="column is-6 is-offset-one-fifth">
+                  <div class="control">
+                     <label class="checkbox">
+                     <input type="checkbox">
+                     Elfogadom az <a href="#">adatvédelmi nyilatkozatban</a> foglaltakat.
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="field columns">
+               <div class="column is-offset-one-fifth">
+                  <button class="button orange">Küldés</button>
+                  <button class="button is-link">Mégse</button>
+               </div>
+            </div>
          </div>
+      </section>
+      <!--Footer-->
+      <footer class="footer">
+         <div class="content has-text-centered">
+            <p>
+               <strong>Loginet System Kft.</strong> © 2020. Digital development services since 2008.
+            </p>
+         </div>
+      </footer>
+      <!--Modal popup-->
+     <div class="modal" id="page-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <p class="has-text-white has-background-danger">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quis iusto ipsum velit consectetur laboriosam deserunt qui? Esse quos, illo recusandae officia, dicta, perspiciatis ex est ipsam explicabo facilis quo laboriosam unde! Voluptatem impedit adipisci voluptatibus, ullam eligendi, aperiam repellendus veniam excepturi laborum laudantium facere iure dolorum magni sunt nam deleniti maiores cumque illum similique. Modi provident optio sequi accusamus dolorem fugiat totam vitae ratione? Repellat officiis amet inventore eos adipisci! Commodi sint recusandae vel quisquam corporis repellendus, veritatis voluptatibus.
+            </p>
         </div>
-<div class="field columns">
-  <div class="column is-6 is-offset-one-fifth">
-  <label class="label">Email cím</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input" type="email" placeholder="Email cím">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-  </div>
-  </div>
-  
-</div>
-<div class="field columns">
- <div class="column is-6 is-offset-one-fifth">
-  <label class="label">Tárgy</label>
-  <div class="control">
-    <div class="select">
-      <select>
-        <option>Válassz egy lehetőséget</option>
-        <option>Egy lehetőség</option>
-      </select>
-    </div>
-  </div>
- </div>
-</div>
-<div class="field columns">
- <div class="column is-6 is-offset-one-fifth">
-  <label class="label">Üzenet</label>
-  <div class="control">
-    <textarea class="textarea" placeholder="Ide írhatod az üzenetedet"></textarea>
-  </div>
- </div>
-</div>
-
-<div class="field columns">
- <div class="column is-6 is-offset-one-fifth">
-  <div class="control">
-    <label class="checkbox">
-      <input type="checkbox">
-      Elfogadom az <a href="#">adatvédelmi nyilatkozatban</a> foglaltakat.
-    </label>
-  </div>
- </div>
-</div>
-<div class="field columns">
-    <div class="column is-offset-one-fifth">
-        <button class="button orange">Küldés</button>
-        <button class="button is-link">Mégse</button>
-    </div>
-</div>
-      </div>
-  
- 
-
-
-     
-</section>
-
-      
+        <button class="modal-close is-large" aria-label="close"></button>
+     </div>
       <!--My Javascript-->
       <script src="js/script.js"></script>
    </body>
